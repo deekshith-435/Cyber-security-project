@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Threat Intelligence Dashboard</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="boot"><pre id="bootText"></pre></div>
+
+<div id="app" class="hidden">
+
+<header>
+<h1>THREAT INTELLIGENCE SYSTEM</h1>
+<div id="status">STATUS: ACTIVE</div>
+</header>
+
+<div class="grid">
+
+<div class="panel terminal">
+<h2>COMMAND CONSOLE</h2>
+<div id="terminalOutput"></div>
+<input id="cmd" placeholder="> enter command" autofocus />
+</div>
+
+<div class="panel">
+<h2>THREAT FEED</h2>
+<div id="feed"></div>
+</div>
+
+<div class="panel">
+<h2>IDS ALERTS</h2>
+<div id="alerts"></div>
+</div>
+
+</div>
+
+<div class="bottom">
+
+<div class="panel">
+<h3>IOC TRACKER</h3>
+<div id="ioc"></div>
+</div>
+
+<div class="panel">
+<h3>LIVE LOGS</h3>
+<div id="logs"></div>
+</div>
+
+</div>
+
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
